@@ -105,7 +105,7 @@ var mailOptions = {
           Welcome to Tripify, your one-stop point to book outing plans. You command us and we will take care of the rest.
           
 Thanks & Regards,
-Mr. Tanmay Samanta
+Mr. S
 Team Tripify`,   
 };
 
