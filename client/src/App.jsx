@@ -14,7 +14,7 @@ import BookingsPage from "./pages/BookingsPage";
 import BookingPage from "./pages/BookingPage";
 
 
-axios.defaults.baseURL="http://localhost:4000";  {/*http://localhost:4000 as a default url*/}
+axios.defaults.baseURL="https://travel-agency-assignment.onrender.com";  {/*https://travel-agency-assignment.onrender.com as a default url*/}
 //axios.defaults.baseURL="http://127.0.0.1:4000";
 //axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
 axios.defaults.withCredentials=true; //for respose with cookies in loginPage.jsx

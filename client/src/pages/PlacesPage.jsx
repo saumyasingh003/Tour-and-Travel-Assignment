@@ -38,7 +38,7 @@ export default function PlacesPage() {
                 {/* <PlaceImg place={place} /> */}
                 {place.photos.length > 0 &&(
                   // <img src={place.photos[0]} alt=""/>
-                  <img className="object-cover" src={'http://localhost:4000/uploads/'+place.photos[0]} alt=""/>
+                  <img className="object-cover" src={'https://travel-agency-assignment.onrender.com/uploads/'+place.photos[0]} alt=""/>
                 )}
               </div>
               <div className="grow-0 shrink">

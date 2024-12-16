@@ -14,7 +14,7 @@ export default function RegisterPage(){
         // This function will be called on submit of form
         //For the register user we will send a request to our API,
         ev.preventDefault();//it will not reload the page
-        //axios.get("http://localhost:4000/test");
+        //axios.get("https://travel-agency-assignment.onrender.com/test");
         //axios.get("/test");
         try{
             await axios.post("/register",{ //About this endpoint(post) we need to define inside index.js //await-> we will wait for user

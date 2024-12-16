@@ -21,7 +21,7 @@ export default function IndexPage()
         <Link to={'/place/'+place._id}>
           <div className="bg-white-500 mb-2 rounded-2x flex"> {/*white*/}
             {place.photos?.[0] &&(
-              // <img className="rounded-2xl object-cover aspect-square" src={'http://localhost:4000/uploads/'+place.photos?.[0]} alt=""/>
+              // <img className="rounded-2xl object-cover aspect-square" src={'https://travel-agency-assignment.onrender.com/uploads/'+place.photos?.[0]} alt=""/>
               <Image className="rounded-2xl object-cover aspect-square" src={place.photos?.[0]} alt=""/>
             )}
           </div>
