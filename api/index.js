@@ -26,11 +26,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname+'/uploads'));//sending photo to http://localhost/4000/uploads
 
-app.use(cors({
-  credentials: true,
-  origin: 'http://localhost:5173',  //What kind of app should be able to communicate with our API 
-  // http://localhost:5173   we van not use this ip->http://127.0.0.1:5173
-}));
+app.use(cors());
 
 // async function uploadToS3(path, originalFilename, mimetype) {
 //   const client = new S3Client({
